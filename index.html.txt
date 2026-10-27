@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    个人运营作品集 | 网站运营个人主页
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft Yahei",sans-serif;}
+        body{background-color:#f8f9fa;color:#333;line-height:1.8;}
+        /* 头部导航 */
+        header{background:#2c3e50;color:#fff;padding:20px 0;text-align:center;}
+        header h1{font-size:28px;margin-bottom:8px;}
+        header p{opacity:0.8;font-size:16px;}
+        /* 容器 */
+        .container{width:90%;max-width:1000px;margin:0 auto;padding:40px 0;}
+        /* 卡片通用样式 */
+        .card{background:#fff;padding:30px;border-radius:12px;box-shadow:0 2px 12px #eee;margin-bottom:30px;}
+        .card h2{color:#2c3e50;margin-bottom:20px;border-left:4px solid #3498db;padding-left:12px;}
+        /* 技能标签 */
+        .tag-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:15px;}
+        .tag{background:#e8f4fc;color:#3498db;padding:6px 16px;border-radius:30px;font-size:14px;}
+        /* 作品列表 */
+        .work-item{padding:15px 0;border-bottom:1px solid #f1f1f1;}
+        .work-item:last-child{border:none;}
+        .work-item h3{font-size:18px;margin-bottom:8px;color:#222;}
+        .work-item p{color:#666;font-size:15px;}
+        /* 底部 */
+        footer{text-align:center;padding:20px;color:#999;font-size:14px;background:#fff;}
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>网站运营｜个人作品集主页</h1>
+        <p>内容运营｜页面排版｜站点搭建｜内容优化</p>
+    </header>
+
+    <div class="container">
+        <!-- 个人简介板块 -->
+        <div class="card">
+            <h2>关于我</h2>
+            <p>专注网站运营与内容创作，熟悉网站页面搭建、图文排版、内容优化、站点基础运维工作。擅长优质内容输出、页面结构优化、素材整合整理，具备完整的网站内容运营思维，可独立完成站点内容更新、页面优化、作品沉淀工作。</p>
+            <div class="tag-list">
+                <span class="tag">网站基础搭建</span>
+                <span class="tag">图文内容排版</span>
+                <span class="tag">内容优化运营</span>
+                <span class="tag">素材整合输出</span>
+                <span class="tag">站点日常维护</span>
+            </div>
+        </div>
+
+        <!-- 核心技能板块 -->
+        <div class="card">
+            <h2>核心运营技能</h2>
+            <div class="work-item">
+                <h3>站点搭建与优化</h3>
+                <p>可独立完成个人站点搭建、页面布局调整、样式优化，熟悉网站基础结构，适配电脑、手机双端浏览体验。</p>
+            </div>
+            <div class="work-item">
+                <h3>内容运营输出</h3>
+                <p>擅长优质文案撰写、内容梳理、栏目规划、图文排版，具备长期内容沉淀与持续更新的运营能力。</p>
+            </div>
+            <div class="work-item">
+                <h3>素材与视觉运营</h3>
+                <p>熟练素材整理、页面配图、内容美化，擅长结构化内容输出，提升网站整体观感与阅读体验。</p>
+            </div>
+        </div>
+
+        <!-- 作品集板块（可自行无限添加） -->
+        <div class="card">
+            <h2>个人作品沉淀</h2>
+            <div class="work-item">
+                <h3>个人官方作品集网站</h3>
+                <p>独立搭建个人运营展示官网，完成页面布局、栏目规划、内容填充、线上部署，作为个人运营实操项目。</p>
+            </div>
+            <div class="work-item">
+                <h3>优质图文内容创作</h3>
+                <p>长期输出结构化、高质感文字内容，擅长内容打磨、逻辑优化、栏目分类整理，适配网站运营内容需求。</p>
+            </div>
+            <div class="work-item">
+                <h3>持续运营迭代记录</h3>
+                <p>持续更新网站内容、优化页面细节、沉淀运营经验，具备网站长期维护与迭代思维。</p>
+            </div>
+        </div>
+
+        <!-- 联系方式 -->
+        <div class="card">
+            <h2>联系方式</h2>
+            <p>欢迎交流网站运营、内容创作、站点搭建相关工作事宜</p>
+            <p style="margin-top:10px;">邮箱：可自行填写 | 微信：可自行填写</p>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+        © 2026 个人运营作品集｜持续学习 持续优化
+    </footer>
+</body>
+</html>
