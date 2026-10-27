@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>毛孩子观察日记｜猫狗记录集</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", system-ui, sans-serif;
+        }
+        body {
+            background-color: #fdfbf7;
+            color: #444;
+            line-height: 1.7;
+        }
+        header {
+            background: #6b7b8c;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .intro {
+            background: #fff;
+            padding: 24px;
+            border-radius: 14px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+            margin-bottom: 36px;
+        }
+        .intro h2 {
+            color: #6b7b8c;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+        .pet-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 26px;
+        }
+        .pet-card {
+            background: #ffffff;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+            transition: 0.25s ease;
+        }
+        .pet-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+        }
+        .pet-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+        .pet-info {
+            padding: 20px;
+        }
+        .pet-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 6px;
+        }
+        .pet-meta {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 12px;
+        }
+        .pet-story {
+            font-size: 15px;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>毛孩子观察日记</h1>
+        <p>记录偶遇的每一只猫猫狗狗，收藏温柔的小故事｜个人运营作品集项目</p>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2>关于这个站点</h2>
+            <p>这是一个记录街头、小区、路边偶遇小猫小狗的图文站点。
+            每一张照片背后都是一次短暂相遇。我负责栏目规划、图文采编、页面排版、持续更新维护，模拟真实网站内容运营工作。
+            可不断新增记录，沉淀内容，迭代页面细节。</p>
+        </div>
+
+        <div class="pet-grid">
+            <!-- ========== 样例1：橘猫 ========== -->
+            <div class="pet-card">
+                <img class="pet-img" src="https://picsum.photos/id/40/600/400" alt="橘猫">
+                <div class="pet-info">
+                    <div class="pet-name">大橘</div>
+                    <div class="pet-meta">🐱 猫咪｜遇见地点：小区花坛｜日期：2026-09-10</div>
+                    <div class="pet-story">
+                        躺在晒太阳，胆子很大，靠近也不跑，只是慢悠悠眨眼睛。
+                        是这片小区的常驻住户，很多邻居都会给它投喂猫粮。
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== 样例2：小狗 ========== -->
+            <div class="pet-card">
+                <img class="pet-img" src="https://picsum.photos/id/237/600/400" alt="小黑狗">
+                <div class="pet-info">
+                    <div class="pet-name">小黑</div>
+                    <div class="pet-meta">🐶 小狗｜遇见地点：街边步道｜日期：2026-09-18</div>
+                    <div class="pet-story">
+                        跟着主人散步，看到人就摇尾巴，很热情。
+                        停下来让我拍了两张照片，主人说它特别喜欢出门逛。
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== 样例3（你可以不断复制这一块新增） ========== -->
+            <div class="pet-card">
+                <img class="pet-img" src="https://picsum.photos/id/1069/600/400" alt="三花">
+                <div class="pet-info">
+                    <div class="pet-name">三花妹妹</div>
+                    <div class="pet-meta">🐱 猫咪｜遇见地点：巷口｜日期：2026-10-02</div>
+                    <div class="pet-story">
+                        有点怕生，躲在电动车下面偷看我。
+                        等了很久才探头出来，抓拍了一张。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 毛孩子观察日记 | 网站运营作品集项目
+    </footer>
+</body>
+</html>
